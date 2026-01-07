@@ -1,16 +1,19 @@
 # Sort-file-automation
-Auto move and rename files whenever system detect there are downloaded files.
+A small automation tool using Python that will group downloaded files 
+into their set folder based on their extension or other criteria and
+rename them to reduce manual file management.
 
-# Current features
-- Automatically move the files I downloaded into their respective folders based on their extensions.
-- Automatically move certain files into another folder intended for it.
-- Automatically rename those certain files.
+## What this does and its current features ?
+This tool helps organize frequently downloaded files by:
+- Automatically moving selected files into a designated folder
+- Renames files based on a predefined naming template and sequence
 
-# How to run it in terminal
-1. Change the terminal directory to where the script originated
-2. Run command python [script name];
-    - For moving files into their respective folders, run: python app.py --sort
-    - For renaming files, run: python app.py --rename {month} {year}
+## How to run the script ?
+1. Open a terminal and navigate to the project directory
+2. For moving files into a folder, run:
+    <pre>python app.py --sort</pre>
+3. For renaming files, run:
+    <pre>python app.py --rename {month} {year}</pre>
 
-# Demo
-Link: https://youtu.be/bDCl-t32Bbs
+## Demo
+Video demonstration: https://youtu.be/bDCl-t32Bbs
