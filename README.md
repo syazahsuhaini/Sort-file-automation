@@ -15,7 +15,7 @@ This tool helps organize frequently downloaded files by:
     python app.py --sort
 3. For renaming files, run:
     ```bash
-    <pre>python app.py --rename {month} {year}</pre>
+    python app.py --rename {month} {year}
 
 ## Demo
 Video demonstration: https://youtu.be/bDCl-t32Bbs
