@@ -11,8 +11,10 @@ This tool helps organize frequently downloaded files by:
 ## How to run the script ?
 1. Open a terminal and navigate to the project directory
 2. For moving files into a folder, run:
-    <pre>python app.py --sort</pre>
+    ```bash
+    python app.py --sort
 3. For renaming files, run:
+    ```bash
     <pre>python app.py --rename {month} {year}</pre>
 
 ## Demo
